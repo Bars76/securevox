@@ -1,0 +1,10 @@
+# SecureVox - dependency aplikasi desktop (Python 3.10+)
+# Semua dependency wajib terpasang sebelum menjalankan python main.py
+
+PySide6==6.12.0
+wmi==1.5.1
+opencv-contrib-python==4.10.0.84
+pycryptodome==3.20.0
+sounddevice==0.5.1
+Pillow==11.1.0
+numpy==2.2.3

@@ -1,0 +1,1 @@
+"""ui.widgets: widget kamera dan worker QThread."""

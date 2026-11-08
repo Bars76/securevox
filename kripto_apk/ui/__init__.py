@@ -1,0 +1,1 @@
+"""ui: tampilan PySide6 SecureVox."""

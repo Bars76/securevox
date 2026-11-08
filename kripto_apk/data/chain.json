@@ -1,0 +1,28 @@
+[
+  {
+    "index": 0,
+    "timestamp": 1794159020.3152251,
+    "data": {
+      "asset_name": "genesis",
+      "file_hash": "",
+      "owner": "sistem",
+      "file_path": ""
+    },
+    "previous_hash": "0000000000000000000000000000000000000000000000000000000000000000",
+    "nonce": 1120,
+    "hash": "00014cd5c7e2153b80c11888596c49d153d2ffa172d29f8ce67551f646b7315b"
+  },
+  {
+    "index": 1,
+    "timestamp": 1794159020.32317,
+    "data": {
+      "asset_name": "Aset Uji",
+      "file_hash": "4da4a75c7ef3c8bb965df3a890a38445cf69c9664910ab4f18b06ae76dd162e9",
+      "owner": "admin",
+      "file_path": "data/asset_uji.txt"
+    },
+    "previous_hash": "00014cd5c7e2153b80c11888596c49d153d2ffa172d29f8ce67551f646b7315b",
+    "nonce": 11388,
+    "hash": "0000c0d6f8f0bb4d2f84a5f61a3292ce639f2b9e3146a71efa72af85375bc6d5"
+  }
+]

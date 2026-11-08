@@ -1,0 +1,180 @@
+/* SecureVox - Tema gelap ber estilo cyber security.
+   Warna aksen: neon hijau (#00ff88). Semua gaya UI ada di file ini. */
+QWidget {
+    background-color: #0b0e14;
+    color: #e2e8f0;
+    font-family: "Segoe UI", "Arial", sans-serif;
+    font-size: 10pt;
+}
+QMainWindow {
+    background-color: #0b0e14;
+}
+
+/* ---------- Header ---------- */
+#header {
+    background-color: #0f1420;
+    border-bottom: 1px solid #1f2a3d;
+    padding: 8px 16px;
+}
+#logoLabel {
+    color: #00ff88;
+    font-size: 20pt;
+    font-weight: bold;
+    letter-spacing: 2px;
+    padding: 4px 0;
+}
+#taglineLabel {
+    color: #64748b;
+    font-size: 8.5pt;
+    padding: 2px 0;
+}
+#dongleStatus {
+    color: #ef4444;
+    font-weight: bold;
+    font-size: 9.5pt;
+    padding: 4px 12px;
+    border: 1px solid #334155;
+    border-radius: 6px;
+    background-color: #161b26;
+}
+#dongleStatus[online="true"] {
+    color: #00ff88;
+    border-color: #00ff88;
+    background-color: #042414;
+}
+
+/* ---------- Tombol ---------- */
+QPushButton {
+    background-color: #161b26;
+    color: #e2e8f0;
+    border: 1px solid #334155;
+    border-radius: 6px;
+    padding: 6px 14px;
+    min-height: 32px;
+}
+QPushButton:hover {
+    border-color: #00ff88;
+    color: #00ff88;
+}
+QPushButton:pressed {
+    background-color: #00ff88;
+    color: #0b0e14;
+}
+QPushButton:disabled {
+    color: #475569;
+    border-color: #1e293b;
+    background-color: #0f1420;
+}
+QPushButton#primary {
+    background-color: #00ff88;
+    color: #0b0e14;
+    font-weight: bold;
+}
+QPushButton#primary:hover {
+    background-color: #00e07a;
+}
+
+/* ---------- Input ---------- */
+QLineEdit, QPlainTextEdit, QTextEdit {
+    background-color: #0f1420;
+    color: #e2e8f0;
+    border: 1px solid #334155;
+    border-radius: 6px;
+    padding: 6px 10px;
+    selection-background-color: #00ff88;
+    selection-color: #0b0e14;
+}
+QLineEdit:focus, QPlainTextEdit:focus, QTextEdit:focus {
+    border-color: #00ff88;
+}
+
+/* ---------- Label / Status ---------- */
+#statusLabel {
+    color: #94a3b8;
+    font-size: 9pt;
+}
+#statusLabel[status="ok"] {
+    color: #00ff88;
+    font-weight: bold;
+}
+#statusLabel[status="err"] {
+    color: #ef4444;
+    font-weight: bold;
+}
+#cardTitle {
+    color: #00ff88;
+    font-size: 13pt;
+    font-weight: bold;
+}
+
+/* ---------- QStackedWidget halaman ---------- */
+QStackedWidget {
+    background-color: #0b0e14;
+}
+
+/* ---------- QTabWidget ---------- */
+QTabWidget::pane {
+    border: 1px solid #1f2a3d;
+    background-color: #0f1420;
+    border-radius: 6px;
+}
+QTabBar::tab {
+    background-color: #161b26;
+    color: #94a3b8;
+    border: 1px solid #1f2a3d;
+    border-bottom: none;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    min-width: 90px;
+    padding: 8px 14px;
+    margin-right: 2px;
+}
+QTabBar::tab:selected {
+    background-color: #0f1420;
+    color: #00ff88;
+    border-bottom: 2px solid #00ff88;
+}
+QTabBar::tab:hover:!selected {
+    color: #e2e8f0;
+}
+
+/* ---------- QTableWidget ---------- */
+QTableWidget {
+    background-color: #0f1420;
+    color: #e2e8f0;
+    border: 1px solid #1f2a3d;
+    border-radius: 6px;
+    gridline-color: #1f2a3d;
+}
+QTableWidget::item {
+    padding: 6px;
+    border: none;
+}
+QTableWidget::item:selected {
+    background-color: #00ff88;
+    color: #0b0e14;
+}
+QHeaderView::section {
+    background-color: #161b26;
+    color: #00ff88;
+    font-weight: bold;
+    border: 1px solid #1f2a3d;
+    padding: 6px;
+}
+
+/* ---------- QMessageBox ---------- */
+QMessageBox {
+    background-color: #0f1420;
+    color: #e2e8f0;
+}
+QMessageBox QPushButton {
+    min-width: 80px;
+}
+
+/* ---------- Layar kosong (placeholder) ---------- */
+#emptyScreen {
+    background-color: #0b0e14;
+    color: #64748b;
+    font-size: 14pt;
+    qproperty-alignment: AlignCenter;
+}

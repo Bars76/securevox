@@ -1,0 +1,1 @@
+"""modules: logika murni SecureVox (tanpa impor PySide6)."""

@@ -1,0 +1,21 @@
+{
+  "dongle": {
+    "vid": "058F",
+    "pid": "6387",
+    "key_filename": "securevox.key"
+  },
+  "face": {
+    "threshold": 70.0,
+    "max_attempts": 3,
+    "samples": 20
+  },
+  "app": {
+    "window_width": 1200,
+    "window_height": 780,
+    "dongle_poll_interval_ms": 3000
+  },
+  "master_salt": "f48a69680f585939cdc9c4f6106584bb"
+}
+
+
+
